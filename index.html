@@ -8,17 +8,23 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <div class="container">
-      <ul class="navbar-nav mr-auto">
-        <li> <a class="nav-link" href="#">Better</a> </li>
-        <li> <a class="nav-link" href="#">Descubra</a> </li>
-        <li> <a class="nav-link" href="#">Preços</a> </li>
-        <li> <a class="nav-link" href="#">Cadastre-se</a> </li>
-        <li> <a class="nav-link" href="#">Login</a> </li>
-      </ul>
-    </div>
+      <button class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+        Menu
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li> <a class="nav-link" href="#">Better</a> </li>
+          <li> <a class="nav-link" href="#">Descubra</a> </li>
+          <li> <a class="nav-link" href="#">Preços</a> </li>
+          <li> <a class="nav-link" href="#">Cadastre-se</a> </li>
+          <li> <a class="nav-link" href="#">Login</a> </li>
+        </ul>
+      </div> <!-- fim .collapse -->
+    </div> <!-- fim .container -->
   </nav>
-  
+  <script	src="js/jquery.js"></script>
+  <script	src="js/bootstrap.min.js"></script>
 </body>
 </html>
